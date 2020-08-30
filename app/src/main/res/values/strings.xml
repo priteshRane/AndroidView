@@ -2,4 +2,9 @@
     <string name="app_name">Android View</string>
     <string name="main_fragment">Home</string>
     <string name="custom_fan_controller_fragment">Custom fan controller</string>
+    <string name="fan_control">Fan Control</string>
+    <string name="fan_off">Off</string>
+    <string name="fan_low">1</string>
+    <string name="fan_medium">2</string>
+    <string name="fan_high">3</string>
 </resources>
