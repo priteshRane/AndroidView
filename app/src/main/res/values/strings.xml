@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android View</string>
+    <string name="main_fragment">Home</string>
+    <string name="custom_fan_controller_fragment">Custom fan controller</string>
 </resources>

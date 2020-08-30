@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.ransoft.androidview.MainFragment"
+        android:label="@string/main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_customFanControllerFragment"
+            app:destination="@id/customFanControllerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customFanControllerFragment"
+        android:name="com.ransoft.androidview.ui.codelabcustomview.CustomFanControllerFragment"
+        android:label="@string/custom_fan_controller_fragment"
+        tools:layout="@layout/custom_fan_controller_fragment" />
+</navigation>
